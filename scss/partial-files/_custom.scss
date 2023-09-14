@@ -1,0 +1,27 @@
+.mx-150{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#navBar{
+  max-width: 84vw;
+  min-width: 84vw;
+}
+#homeDrivesasa{
+  height: 1140px;
+  background-image:linear-gradient(to top,rgba(white,0.1),rgba(white, 0)),url("/images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  .container-fluid{
+    background-image:linear-gradient(to bottom,rgba(#1E1E1E,1),rgba(white, 0));
+    height: 650px;
+  }
+}
+#carCards{
+  height: 250px;
+}
+#carExpert{
+  background-image:linear-gradient(to top,rgba(white,0.1),rgba(white, 0)),url("/images/bg-car-expert.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 860px;
+}

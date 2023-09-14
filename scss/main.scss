@@ -1,0 +1,101 @@
+// font family
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+// font-family: 'Inter', sans-serif;
+// font-family: 'Jost', sans-serif;
+// font-family: 'Lato', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Poppins', sans-serif;
+
+@import "./partial-files/custom-variable";
+
+// font-family overrides
+$font-family-base:$poppins;
+$display-font-family:$jost;
+
+// font-weight overrides
+$font-weight-bolder:   900;
+$font-weight-lighter:  800;
+$font-weight-light:    300;
+$font-weight-normal:   400;
+$font-weight-medium:   500;
+$font-weight-semibold: 600;
+$font-weight-bold:     700;
+
+// boxshadow overrides
+// $box-shadow:                  0 .5rem 1rem rgba($black, .15);
+$box-shadow-sm:               0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+// $box-shadow-lg:               0 1rem 3rem rgba($black, .175);
+// $box-shadow-inset:            inset 0 1px 2px rgba($black, .075);
+
+
+// theme-colors override
+$theme-colors: (
+  "primary":    $primary,
+  "info":       $info,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "secondary":  $secondary,
+  "success":    $success
+);
+
+// display font size overrides
+$display-font-sizes: (
+  1: 7rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 1.65rem,
+  6: 1rem
+);
+
+// spacers overrides
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 2,
+  5: $spacer * 3,
+);
+
+// border-radius override
+$border-radius:               .375rem !default;
+$border-radius-sm:            .25rem !default;
+$border-radius-lg:            .625rem !default;
+$border-radius-xl:            1rem !default;
+$border-radius-xxl:           2rem !default;
+$border-radius-pill:          50rem !default;
+
+// $font-size-base override.
+$font-size-root:              null !default;
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .875 !default;
+$font-size-lg:                $font-size-base * 1.25 !default;
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-medium:          500 !default;
+$font-weight-semibold:        600 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+
+$font-weight-base:            $font-weight-normal !default;
+
+$line-height-base:            1.5 !default;
+$line-height-sm:              1.25 !default;
+$line-height-lg:              2 !default;
+
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.25 !default;
+$h5-font-size:                $font-size-base * 1.125 !default;
+$h6-font-size:                .938rem;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../scss/partial-files/_custom.scss";
