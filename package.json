@@ -1,0 +1,30 @@
+{
+  "name": "project-drivesasa",
+  "version": "1.0.0",
+  "description": "Assignment of September.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChandeepSharma/project-Drivesasa.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "Bootstrap",
+    "Sass",
+    "and",
+    "jQuery."
+  ],
+  "author": "Chandeep Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChandeepSharma/project-Drivesasa/issues"
+  },
+  "homepage": "https://github.com/ChandeepSharma/project-Drivesasa#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}
