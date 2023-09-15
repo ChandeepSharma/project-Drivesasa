@@ -65,8 +65,5 @@ $border-radius-pill:          50rem;
 // $font-size-base override.
 $h6-font-size:                .938rem;
 
-// input padding override.
-$input-padding-y:22px;
-
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../scss/partial-files/_custom.scss";
