@@ -32,6 +32,7 @@ $theme-colors: (
   "warning":    $warning,
   "blue":       $blue,
   "gray":       $gray-400,
+  "gray-dark":  $gray-800,
 );
 
 // display font size overrides.
@@ -64,6 +65,8 @@ $border-radius-xxl:           2rem;
 $border-radius-pill:          50rem;
 
 // $font-size-base override.  
+$h1-font-size:                3rem;
+$h2-font-size:                2.5rem;
 $h6-font-size:                .938rem;
 
 // scss-docs-start headings-variables
