@@ -5,8 +5,8 @@
 @import "./partial-files/custom-variable";
 
 // font-family overrides.
-$font-family-base:$poppins;
-$display-font-family:$jost;
+$font-family-base:$font-family-poppins;
+$display-font-family:$font-family-jost;
 
 // font-weight overrides.
 $font-weight-bolder:   900;
@@ -22,17 +22,17 @@ $box-shadow-sm:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 // theme-colors override.
 $theme-colors: (
-  "primary":    $primary,
-  "info":       $info,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark,
-  "secondary":  $secondary,
-  "success":    $success,
-  "warning":    $warning,
-  "blue":       $blue,
-  "gray":       $gray-400,
-  "gray-dark":  $gray-800,
+  "primary":    $primary-color,
+  "info":       $info-color,
+  "danger":     $danger-color,
+  "light":      $light-color,
+  "dark":       $dark-color,
+  "secondary":  $secondary-color,
+  "success":    $success-color,
+  "warning":    $warning-color,
+  "blue":       $blue-color,
+  "gray":       $gray-400-color,
+  "gray-dark":  $gray-800-color,
 );
 
 // display font size overrides.
