@@ -1,6 +1,5 @@
 // header
-#headerDrivesasa ul a{  
-    padding: 0px;
+#headerDrivesasa ul a{
     line-height: 27px;
 }
 // banner page
@@ -20,6 +19,24 @@
 }
 #carCards{
   height: 250px;
+}
+@media screen and (max-width:"992px") {
+  #carCards{
+    height: 550px;
+    position: static;
+  }  
+}
+@media screen and (max-width:"768px") {
+  #carCards{
+    height: 590px;
+    position: static;
+  }  
+}
+@media screen and (max-width:"400px") {
+  #carCards{
+    height: 630px;
+    position: static;
+  }  
 }
 #carExpert{
   background-image:linear-gradient(to top,rgba(white,0.1),rgba(white, 0)),url("/images/bg-car-expert.png");
