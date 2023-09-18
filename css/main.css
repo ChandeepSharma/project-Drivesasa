@@ -12017,9 +12017,14 @@ textarea.form-control-lg {
 
 #homePageBanner {
   background-image: url(/images/home-banner-bg.png);
-  height: 95vh;
+  height: 1030px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.home-btn-banner button {
+  width: 365px;
+  height: 94px;
 }
 
 /*# sourceMappingURL=main.css.map */
