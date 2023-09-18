@@ -11948,6 +11948,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#headerDrivesasa ul a {
+  padding: 0px;
+  line-height: 27px;
+}
+
 .mx-150 {
   margin-left: 150px;
   margin-right: 150px;
@@ -11962,10 +11967,6 @@ textarea.form-control-lg {
 #homeDrivesasa .shadow-linear {
   background-image: linear-gradient(to bottom, #1e1e1e, rgba(255, 255, 255, 0));
   height: 650px;
-}
-#homeDrivesasa ul a {
-  padding: 0px;
-  line-height: 27px;
 }
 
 #carCards {

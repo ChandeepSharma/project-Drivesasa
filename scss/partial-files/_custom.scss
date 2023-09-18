@@ -1,4 +1,8 @@
-.mx-150{
+#headerDrivesasa ul a{  
+    padding: 0px;
+    line-height: 27px;
+}
+.mx-150{  
   margin-left: 150px;
   margin-right: 150px;
 }
@@ -10,10 +14,6 @@
   .shadow-linear{
     background-image:linear-gradient(to bottom,rgba(#1E1E1E,1),rgba(white, 0));
     height: 650px;
-  }
-  ul a{
-    padding: 0px;
-    line-height: 27px;
   }
 }
 #carCards{
