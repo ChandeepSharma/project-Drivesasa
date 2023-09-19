@@ -9,30 +9,31 @@ $font-family-base:$font-family-poppins;
 $display-font-family:$font-family-jost;
 
 // font-weight overrides.
-$font-weight-bolder:   900;
-$font-weight-lighter:  800;
-$font-weight-light:    300;
-$font-weight-normal:   400;
-$font-weight-medium:   500;
-$font-weight-semibold: 600;
-$font-weight-bold:     700;
+$font-weight-bolder:900;
+$font-weight-lighter:800;
+$font-weight-light:300;
+$font-weight-normal:400;
+$font-weight-medium:500;
+$font-weight-semibold:600;
+$font-weight-bold:700;
 
 // boxshadow overrides.
 $box-shadow-sm:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 // theme-colors override.
 $theme-colors: (
-  "primary":    $primary-color,
-  "info":       $info-color,
-  "danger":     $danger-color,
-  "light":      $light-color,
-  "dark":       $dark-color,
-  "secondary":  $secondary-color,
-  "success":    $success-color,
-  "warning":    $warning-color,
-  "blue":       $blue-color,
-  "gray":       $gray-400-color,
-  "gray-dark":  $gray-800-color,
+  "primary":$primary-color,
+  "info":$info-color,
+  "danger":$danger-color,
+  "light":$light-color,
+  "dark":$dark-color,
+  "secondary":$secondary-color,
+  "success":$success-color,
+  "warning":$warning-color,
+  "blue":$blue-color,
+  "gray":$gray-400-color,
+  "gray-dark":$gray-800-color,
+  "emphasis":$gray-900-color,
 );
 
 // display font size overrides.
@@ -49,25 +50,25 @@ $display-font-sizes: (
 $spacer: 1rem;
 $spacers: (
   0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
+  1: $spacer *0.25,
+  2: $spacer *0.5,
   3: $spacer,
-  4: $spacer * 2,
-  5: $spacer * 3,
+  4: $spacer *2,
+  5: $spacer *3,
 );
 
 // border-radius override.
-$border-radius:               .375rem;
-$border-radius-sm:            .25rem;
-$border-radius-lg:            .625rem;
-$border-radius-xl:            1rem;
-$border-radius-xxl:           2rem;
-$border-radius-pill:          50rem;
+$border-radius:0.375rem;
+$border-radius-sm:0.25rem;
+$border-radius-lg:0.625rem;
+$border-radius-xl:1rem;
+$border-radius-xxl:2rem;
+$border-radius-pill:50rem;
 
 // $font-size-base override.  
-$h1-font-size:                3rem;
-$h2-font-size:                2.5rem;
-$h6-font-size:                .938rem;
+$h1-font-size:3rem;
+$h2-font-size:2.5rem;
+$h6-font-size:.938rem;
 
 // scss-docs-start headings-variables
 // $headings-margin-bottom:      $spacer * .5 !default;
@@ -75,7 +76,10 @@ $h6-font-size:                .938rem;
 // $headings-font-style:         null !default;
 // $headings-font-weight:        500 !default;
 // $headings-line-height:        1.2 !default;
-$headings-color:              $headings-color;
+$headings-color:$heading-color;
+
+// input Placeholder colors override.
+$input-placeholder-color:$placeholder-color;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../scss/partial-files/_custom.scss";
