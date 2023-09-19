@@ -41,9 +41,9 @@
   background-size: cover;
   height: 860px;
 }
-.bg-lighter{
-  background-color:$lighter-color;
-}
+// .bg-lighter{
+//   background-color:$lighter-color;
+// }
 #happyClients{
   height: 1080px;
   background-image:linear-gradient(to top,rgba($success-color,0.1),rgba($success-color, 0)),url("/images/bg-car-expert.png");
@@ -120,5 +120,4 @@
 }
 #homeVendorInfo{
   background-image: url(/images/home-banner-bg.png);
-  height: 940px;
 }
