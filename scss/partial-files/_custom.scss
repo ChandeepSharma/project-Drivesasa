@@ -125,5 +125,9 @@
 // Service Center 
 #bannerService{
   background-image: url("/images/banner-service-bg.png");
-
+}
+// blog 
+#bgBlog{
+  background: linear-gradient(180deg, rgba(49, 49, 49, 0.30) -4.74%, rgba(0, 0, 0, 0.55) 103.32%), url("/images/blog-bg.jpg"), lightgray 50% / cover no-repeat;
+  height: 961px;
 }
