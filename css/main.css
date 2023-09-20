@@ -12645,4 +12645,10 @@ textarea.form-control-lg {
   height: 961px;
 }
 
+#contactPageBanner {
+  background-image: url(/images/home-banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=main.css.map */
